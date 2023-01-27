@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Page Home -->
+    <string name="card_status_running_title">已安装</string>
+    <string name="card_status_running_secondary">版本: %1$d</string>
+    <string name="card_status_error_title">未安装</string>
+    <string name="card_status_error_secondary">请仔细阅读说明并完成安装</string>
+    <string name="card_status_body">为了弥补主题引擎的缺陷，三星以奇怪的方式实现了 主题公园 的功能，包括对图标包内的图标进行后处理与压缩。\n因此只有根据我们的教程安装才能绕过 主题公园 的限制并保留自适应图标的特性。其它任何形式安装都是不推荐并不被提供支持的。</string>
+    <string name="card_status_button_tutorial">安装</string>
+    <string name="card_controls_title">控制中心</string>
+    <string name="card_controls_secondary">管理图标和主题</string>
+    <string name="card_tutorial_title">安装教程</string>
+    <string name="card_tutorial_secondary">也许您还需要再看一次教程</string>
+    <string name="card_dashboard_title">所有图标</string>
+    <string name="card_dashboard_secondary">查看所有已适配的图标</string>
+    <string name="card_request_title">申请图标</string>
+    <string name="card_request_secondary">开发者将尝试适配您申请的图标</string>
+    <string name="card_about_title">关于</string>
+    <string name="card_about_secondary">了解关于本应用的一切</string>
+
+    <!-- Page Controls -->
+    <string name="controls_summary_secondary_running">已安装</string>
+    <string name="controls_summary_secondary_update">可更新</string>
+    <string name="controls_summary_secondary_error">未安装</string>
+    <string name="controls_summary_installed_version">图标包: %1$d</string>
+    <string name="controls_summary_this_version">安装器: %1$d</string>
+    <string name="controls_summary_body_running">已安装最新版本的图标包</string>
+    <string name="controls_summary_body_update">图标包有可用的更新</string>
+    <string name="controls_summary_body_error">您似乎还没有安装本图标包，请先根据安装教程安装</string>
+    <string name="controls_summary_button_install">安装</string>
+    <string name="controls_summary_button_uninstall">卸载</string>
+    <string name="controls_summary_button_reinstall">重新安装</string>
+    <string name="controls_summary_button_update">更新</string>
+    <string name="controls_manage_title">我的资料</string>
+    <string name="controls_manage_body">前往主题商店管理所有的图标包以及主题</string>
+    <string name="controls_manage_button">主题商店</string>
+    <string name="controls_special_title">特殊版本</string>
+    <string name="controls_special_button_reinstall">安装</string>
+    <string name="controls_general_title">通用管理</string>
+    <string name="controls_general_body">你可以输入一个应用包名或者三星主题商店的分享链接</string>
+    <string name="controls_general_input_label">包名</string>
+    <string name="controls_general_button_uninstall">卸载</string>
+
+    <!-- Page Tutorial -->
+    <string name="tutorial_card_0_title">警告</string>
+    <string name="tutorial_card_0_body">请仔细阅读以下内容！\n\n本图标包只是一个自适应图标包，没有功能代码，没有进程，没有对操作系统的任何修改或优化，最终效果完全取决于您的设备及操作系统。\n本应用只为使图标包的安装更加便捷，您完全可以在安装完后卸载。\n如果您在安装使用过程中感到设备发热、掉帧、卡顿等，并在阅读上述内容后任确信是本图标包的影响，请您尽快卸载本应用和图标包。</string>
+    <string name="tutorial_card_1_title">从主题商店安装图标包</string>
+    <string name="tutorial_card_1_body">直接安装无法被主题商店识别。请安装这个图标包以作为占位符。</string>
+    <string name="tutorial_card_1_button_get">安装</string>
+    <string name="tutorial_card_2_title">卸载主题商店图标包</string>
+    <string name="tutorial_card_2_body">主题商店已经有这个图标包的记录，卸载它并替换成此图标包。</string>
+    <string name="tutorial_card_2_button_uninstall">卸载</string>
+    <string name="tutorial_card_3_title">安装本图标包</string>
+    <string name="tutorial_card_3_body">安装应用程序包可能需要您的授权。</string>
+    <string name="tutorial_card_3_button_install">安装</string>
+    <string name="tutorial_card_4_title">清除主题商店缓存</string>
+    <string name="tutorial_card_4_body">清除缓存后，主题商店将会正确显示本图标包的预览图。</string>
+    <string name="tutorial_card_4_button_clear">清除缓存</string>
+    <string name="tutorial_card_5_title">应用</string>
+    <string name="tutorial_card_5_body">前往主题商店应用此图标包。</string>
+    <string name="tutorial_card_5_button_apply">应用</string>
+    <string name="tutorial_card_6_title">重启系统</string>
+    <string name="tutorial_card_6_body">这一步并非必须的，但我们强烈推荐您在每次应用图标包后重启系统。</string>
+    <string name="tutorial_card_6_button_reboot">重启</string>
+
+    <!-- Page Dashboard -->
+
+    <!-- Page Request -->
+    <string name="request_tips_notfound">此功能还未上线</string>
+
+    <!-- Page About -->
+    <string name="about_icon_pack_secondary">为什么不给我们一个五星好评呢？</string>
+    <string name="about_author_button_email">电子邮件</string>
+    <string name="about_feedback_title">反馈</string>
+    <string name="about_feedback_secondary">反馈问题并获取帮助</string>
+    <string name="about_feedback_button_market">应用商店</string>
+    <string name="about_feedback_button_qq">加入QQ群</string>
+    <string name="about_donate_title">捐赠</string>
+    <string name="about_donate_secondary">让这个应用程序再次变得伟大</string>
+    <string name="about_donate_button_alipay">支付宝</string>
+    <string name="about_donate_button_wechat">微信支付</string>
+    <string name="about_dashboard_title">棋牌室</string>
+    <string name="about_dashboard_secondary">一个开源的图标包仪表盘</string>
+    <string name="about_dashboard_body">一个开源的图标包仪表盘，针对三星进行特化。代码写得很差，千万别说出来!</string>
+
+    <string name="toast_theme_store_uninstalled">未安装主题商店</string>
+    <string name="toast_theme_uninstalled">主题或图标包未安装</string>
+    <string name="toast_warning_dontapply">请不要应用主题或图标包</string>
+    <string name="toast_tips_clear_cache">点击“存储”，再点击“清除缓存”</string>
+    <string name="toast_tips_reboot">由于系统限制，我们无法直接重启，请继续完成操作。</string>
+    <string name="toast_warning_noapk">在保存应用程序时出现了问题。请联系作者获取支持。</string>
+    <string name="toast_warning_noqq">未安装QQ或安装的版本不支持</string>
+    <string name="toast_warning_noalipay">未安装支付宝或安装的版本不支持</string>
+    <string name="toast_warning_nowechat">未安装微信或安装的版本不支持</string>
+    <string name="toast_tips_openwechat">二维码已保存至系统相册</string>
+
+
+
+    <string name="toast_tips_uninstall">如果你想完全卸载此图标包，还需要到主题商店中删除。</string>
+
+</resources>

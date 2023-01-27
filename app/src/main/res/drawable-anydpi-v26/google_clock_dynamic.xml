@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <foreground>
+        <layer-list>
+            <item android:drawable="@mipmap/google_clock_dial" />
+            <item>
+                <rotate
+                    android:drawable="@mipmap/google_clock_hour"
+                    android:fromDegrees="300.0"
+                    android:toDegrees="5300.0"
+                    android:pivotX="50%"
+                    android:pivotY="50%" />
+            </item>
+            <item>
+                <rotate
+                    android:drawable="@mipmap/google_clock_minute"
+                    android:fromDegrees="60.0"
+                    android:toDegrees="60060.0"
+                    android:pivotX="50%"
+                    android:pivotY="50%" />
+            </item>
+            <item>
+                <rotate
+                    android:drawable="@mipmap/google_clock_second"
+                    android:fromDegrees="180.0"
+                    android:toDegrees="6180.0"
+                    android:pivotX="50%"
+                    android:pivotY="50%"
+                    android:level="300" />
+            </item>
+            <item android:drawable="@mipmap/google_clock_dot" />
+        </layer-list>
+    </foreground>
+    <background android:drawable="@mipmap/google_clock_bg"/>
+</adaptive-icon>

@@ -1,0 +1,113 @@
+<resources>
+    <!-- Page Home -->
+    <string name="card_status_running_title">Installed</string>
+    <string name="card_status_running_secondary">Version: %1$d</string>
+    <string name="card_status_error_title">Not installed</string>
+    <string name="card_status_error_secondary">Please read the instructions carefully and complete the installation</string>
+    <string name="card_status_body">To compensate for the shortcomings of the theme engine, Samsung has implemented the Theme Park feature in a strange way, including post-processing and compression of the icons in the icon pack.\nTherefore, the only way to bypass the Theme Park limitation and retain the adaptive icons feature is to install it according to our tutorial. Any other form of installation is not recommended and is not supported.</string>
+    <string name="card_status_button_tutorial">Install</string>
+    <string name="card_controls_title">Control Center</string>
+    <string name="card_controls_secondary">Manage icons and themes</string>
+    <string name="card_tutorial_title">Installation Tutorial</string>
+    <string name="card_tutorial_secondary">Maybe you need to watch the tutorial again</string>
+    <string name="card_dashboard_title">Icons</string>
+    <string name="card_dashboard_secondary">View all icons included in this icon pack</string>
+    <string name="card_request_title">Request</string>
+    <string name="card_request_secondary">Get your icon requested</string>
+    <string name="card_about_title">About</string>
+    <string name="card_about_secondary">Get everything about this app</string>
+
+    <!-- Page Controls -->
+    <string name="controls_title" translatable="false">@string/card_controls_title</string>
+    <string name="controls_summary_title" translatable="false">@string/config_icon_name</string>
+    <string name="controls_summary_secondary_running">Installed</string>
+    <string name="controls_summary_secondary_update">Update available</string>
+    <string name="controls_summary_secondary_error">Not installed</string>
+    <string name="controls_summary_installed_version">Icon Pack: %1$d</string>
+    <string name="controls_summary_this_version">Installer: %1$d</string>
+    <string name="controls_summary_body_running">The latest version of the icon pack has been installed. Everything works fine!</string>
+    <string name="controls_summary_body_update">The installed icon package is outdated, we recommend you to update to the latest version.</string>
+    <string name="controls_summary_body_error">It looks like you don\'t have this icon package installed yet, please follow the installation tutorial to install it first.</string>
+    <string name="controls_summary_button_install">Install</string>
+    <string name="controls_summary_button_uninstall">Uninstall</string>
+    <string name="controls_summary_button_reinstall">Reinstall</string>
+    <string name="controls_summary_button_update">Update</string>
+    <string name="controls_manage_title">My Stuff</string>
+    <string name="controls_manage_body">Go to Theme Store to manage all icon packs and themes</string>
+    <string name="controls_manage_button">Theme Store</string>
+    <string name="controls_special_title">Special Edition</string>
+    <string name="controls_special_button_reinstall">Install</string>
+    <string name="controls_general_title">General Management</string>
+    <string name="controls_general_body">You can enter an app package name or a share link from the Samsung Theme Store</string>
+    <string name="controls_general_input_label">Package Name</string>
+    <string name="controls_general_button_uninstall">Uninstall</string>
+
+    <!-- Page Tutorial -->
+    <string name="tutorial_title" translatable="false">@string/card_tutorial_title</string>
+    <string name="tutorial_card_0_title">Warning</string>
+    <string name="tutorial_card_0_body">Please read the following carefully!\n\nThis icon pack is just an adaptive icon pack, there is no function code, no process, no any modification or optimization to the operating system, the final result depends entirely on your device and operating system.\nThis application only serves to make the installation of the icon pack easier and you can completely uninstall it after installation.\nIf you feel that your device is getting hot, dropping frames, lagging, etc. during installation and use, and you are convinced that it is the effect of this icon pack after reading the above, please uninstall this application and the icon pack as soon as possible.</string>
+    <string name="tutorial_card_1_title">Install icon pack from theme store</string>
+    <string name="tutorial_card_1_body">Direct installation is not recognized by the theme store. Please install this icon pack as a placeholder.</string>
+    <string name="tutorial_card_1_button_get">Install</string>
+    <string name="tutorial_card_2_title">Uninstall Theme Store Icon Pack</string>
+    <string name="tutorial_card_2_body">The Theme Store already has a record of this icon pack, uninstall it and replace it with this icon pack.</string>
+    <string name="tutorial_card_2_button_uninstall">Uninstall</string>
+    <string name="tutorial_card_3_title">Install this icon pack</string>
+    <string name="tutorial_card_3_body">Your authorization may be required to install the application package.</string>
+    <string name="tutorial_card_3_button_install">Install</string>
+    <string name="tutorial_card_4_title">Clear the Theme Store cache</string>
+    <string name="tutorial_card_4_body">After clearing the cache, the theme store will show the preview image of this icon pack correctly.</string>
+    <string name="tutorial_card_4_button_clear">Clear cache</string>
+    <string name="tutorial_card_5_title">Apply</string>
+    <string name="tutorial_card_5_body">Go to the theme store to apply this icon pack.</string>
+    <string name="tutorial_card_5_button_apply">Apply</string>
+    <string name="tutorial_card_6_title">Reboot the system</string>
+    <string name="tutorial_card_6_body">This step is not required, but we strongly recommend that you reboot your system after each application of the icon pack.</string>
+    <string name="tutorial_card_6_button_reboot">Reboot</string>
+
+    <!-- Page Dashboard -->
+    <string name="dashboard_title" translatable="false">@string/card_dashboard_title</string>
+
+    <!-- Page Request -->
+    <string name="request_title" translatable="false">@string/card_request_title</string>
+    <string name="request_tips_notfound">Pie in the sky</string>
+
+    <!-- Page About -->
+    <string name="about_title" translatable="false">@string/card_about_title</string>
+    <string name="about_icon_pack_title" translatable="false">@string/config_icon_name</string>
+    <string name="about_icon_pack_secondary">Why not give us a five-star review?</string>
+    <string name="about_author_title" translatable="false">@string/author_name</string>
+    <string name="about_author_secondary" translatable="false">@string/author_introduction</string>
+    <string name="about_author_button_email">Email</string>
+    <string name="about_author_button_page" translatable="false">@string/author_page_name</string>
+    <string name="about_feedback_title">Feedback</string>
+    <string name="about_feedback_secondary">Feedback and get support</string>
+    <string name="about_feedback_button_market">App Market</string>
+    <string name="about_feedback_button_qq">QQ Group</string>
+    <string name="about_donate_title">Donate</string>
+    <string name="about_donate_secondary">Make this app great again</string>
+    <string name="about_donate_button_alipay">Alipay</string>
+    <string name="about_donate_button_wechat">WeChat</string>
+    <string name="about_dashboard_title">BoardRoom</string>
+    <string name="about_dashboard_secondary">An open source icon pack dashboard</string>
+    <string name="about_dashboard_body">An open source icon pack dashboard, specialised for Samsung. The code is badly written, do not say it!</string>
+    <string name="about_dashboard_button_author" translatable="false">Howie</string>
+    <string name="about_dashboard_button_sourcecode" translatable="false">Github</string>
+
+    <!-- Toast -->
+    <string name="toast_theme_store_uninstalled">Theme Store is not installed</string>
+    <string name="toast_theme_uninstalled">Theme or icon pack is not installed</string>
+    <string name="toast_warning_dontapply">Please do not apply themes or icon packs</string>
+    <string name="toast_tips_clear_cache">Click \"Storage\" and then click \"Clear cache\"</string>
+    <string name="toast_tips_reboot">Due to system limitations, we are unable to reboot directly, please continue to complete the operation.</string>
+    <string name="toast_tips_openwechat">QR code has been saved to the system album</string>
+    <string name="toast_warning_noapk">There is a problem with saving the application. Please contact the author for support.</string>
+    <string name="toast_warning_noqq">QQ is not installed or the installed version is not supported</string>
+    <string name="toast_warning_noalipay">AliPay is not installed or the installed version is not supported</string>
+    <string name="toast_warning_nowechat">WeChat is not installed or the installed version is not supported</string>
+    <string name="toast_tips_uninstall">If you want to uninstall this icon pack completely, you also need to go to the theme store to remove it.</string>
+
+    <!-- URLs -->
+    <string name="url_dashboard_author" translatable="false">https://github.com/HowieHChen</string>
+    <string name="url_dashboard_opensource" translatable="false">https://github.com/HowieHChen/OneSeriesStarter</string>
+</resources>

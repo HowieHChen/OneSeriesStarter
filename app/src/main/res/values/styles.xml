@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardTitle">
+        <item name="android:textAppearance">?textAppearanceBodyLarge</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+    </style>
+
+    <style name="CardSecondary">
+        <item name="android:textAppearance">?textAppearanceBodyMedium</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+    </style>
+
+    <style name="FilledCard" parent="@style/Widget.Material3.CardView.Filled">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/card_layout_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_layout_margin</item>
+        <item name="android:checkable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPaddingStart">@dimen/card_content_padding_h</item>
+        <item name="contentPaddingEnd">@dimen/card_content_padding_h</item>
+        <item name="contentPaddingLeft">@dimen/card_content_padding_h</item>
+        <item name="contentPaddingRight">@dimen/card_content_padding_h</item>
+        <item name="contentPaddingTop">@dimen/card_content_padding_v</item>
+        <item name="contentPaddingBottom">@dimen/card_content_padding_v</item>
+    </style>
+    
+    <style name="RoundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    
+    <style name="Widget.Material3.Button.TonalButton.IconOnly" parent="Widget.Material3.Button.TonalButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+
+    <style name="IconListCategoryTitle">
+        <item name="android:textAppearance">?textAppearanceLabelLarge</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="IconListCategoryCount">
+        <item name="android:textAppearance">?textAppearanceLabelLarge</item>
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

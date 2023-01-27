@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">28dp</dimen>
+    <dimen name="card_layout_margin">8dp</dimen>
+    <dimen name="card_content_padding_h">16dp</dimen>
+    <dimen name="card_content_padding_v">24dp</dimen>
+
+    <dimen name="button_margin_h">8dp</dimen>
+
+    <dimen name="iconlist_margin">8dp</dimen>
+    <dimen name="iconlist_title_padding_h">8dp</dimen>
+    <dimen name="iconlist_title_padding_v">16dp</dimen>
+
+    <dimen name="inputbox_CornerRadius">28dp</dimen>
+</resources>

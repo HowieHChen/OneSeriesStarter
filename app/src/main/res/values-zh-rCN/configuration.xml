@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Icon pack Info / 图标包信息 -->
+    <!-- App Name / 应用名-->
+    <string name="app_name">One Series Demo</string>
+    <!-- Instructions for special versions / 特殊版本的说明 -->
+    <string name="controls_special_body">请联系作者获取有关特殊版本的具体信息</string>
+
+    <!-- Author Info / 作者信息 -->
+    <!-- Author Name / 作者姓名-->
+    <string name="author_name">你的姓名</string>
+    <!-- Author Introduction / 作者简介-->
+    <string name="author_introduction">简介</string>
+    <!-- Author Page Name -->
+    <string name="author_page_name">网站名</string>
+
+    <!-- Donate & Feedback Info / 捐赠与反馈信息-->
+</resources>

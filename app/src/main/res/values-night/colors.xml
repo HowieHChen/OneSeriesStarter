@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="card_background">#0AABC7FF</color>
+
+    <color name="card_status_ic_running_foreground">#BBDEFA</color>
+    <color name="card_status_ic_running_background">#1D89E4</color>
+    <color name="card_status_ic_error_foreground">#CFD8DC</color>
+    <color name="card_status_ic_error_background">#546E7A</color>
+    <color name="card_controls_ic_foreground">#C5CAE9</color>
+    <color name="card_controls_ic_background">#3949AB</color>
+    <color name="card_tutorial_ic_foreground">#D0C4E8</color>
+    <color name="card_tutorial_ic_background">#5D35B0</color>
+    <color name="card_dashboard_ic_foreground">#FFE0B2</color>
+    <color name="card_dashboard_ic_background">#FB8C00</color>
+    <color name="card_request_ic_foreground">#B2EBF2</color>
+    <color name="card_request_ic_background">#00ACC1</color>
+    <color name="card_about_ic_foreground">#CFD8DC</color>
+    <color name="card_about_ic_background">#546E7A</color>
+
+    <color name="card_ic_red_foreground">#FFEBEE</color>
+    <color name="card_ic_red_background">#D32F2F</color>
+    <color name="card_ic_deep_purple_foreground">#EDE7F6</color>
+    <color name="card_ic_deep_purple_background">#512DA8</color>
+    <color name="card_ic_blue_foreground">#E3F2FD</color>
+    <color name="card_ic_blue_background">#1976D2</color>
+    <color name="card_ic_light_blue_foreground">#E1F5FE</color>
+    <color name="card_ic_light_blue_background">#0288D1</color>
+    <color name="card_ic_cyan_foreground">#E0F7FA</color>
+    <color name="card_ic_cyan_background">#0097A7</color>
+    <color name="card_ic_teal_foreground">#E0F2F1</color>
+    <color name="card_ic_teal_background">#00796B</color>
+    <color name="card_ic_green_foreground">#E8F5E9</color>
+    <color name="card_ic_green_background">#388E3C</color>
+    <color name="card_ic_amber_foreground">#FFF8E1</color>
+    <color name="card_ic_amber_background">#FFA000</color>
+    <color name="card_ic_grey_foreground">#FAFAFA</color>
+    <color name="card_ic_grey_background">#616161</color>
+    <color name="card_ic_blue_grey_foreground">#ECEFF1</color>
+    <color name="card_ic_blue_grey_background">#455A64</color>
+</resources>

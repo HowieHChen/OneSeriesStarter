@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Icon pack Info / 图标包信息 -->
+    <!-- App Name / 应用名-->
+    <string name="app_name">One Series Demo</string>
+    <!-- This icon pack's name / 此图标包名字 -->
+    <string name="config_icon_name" translatable="false">One Series Demo</string>
+    <!-- Package name of the theme store icon package / 主题商店图标包的包名 -->
+    <string name="config_store_icon_pkg" translatable="false">sidia.OT_2021_ValentineFondue.appiconpack</string>
+    <!-- Has Special Edition / 是否有特殊版本 -->
+    <bool name="has_special_edition">false</bool>
+    <!-- Instructions for special versions / 特殊版本的说明 -->
+    <string name="controls_special_body">Please contact the author for specific information about special editions</string>
+
+    <!-- Author Info / 作者信息 -->
+    <!-- Author Name / 作者姓名-->
+    <string name="author_name">Your Name</string>
+    <!-- Author Introduction / 作者简介-->
+    <string name="author_introduction">Fill in the introduction here</string>
+    <!-- Author Email / 作者邮箱-->
+    <string name="author_email" translatable="false">your@email.com</string>
+    <!-- Author Page Name -->
+    <string name="author_page_name" translatable="false">Website</string>
+    <!-- Author Page URL / 作者主页链接-->
+    <string name="author_page_url" translatable="false">https://your.website.here</string>
+
+    <!-- Donate & Feedback Info / 捐赠与反馈信息-->
+    <!-- Pay with Alipay / 使用支付宝支付 -->
+    <bool name="config_pay_with_alipay">true</bool>
+    <!-- Donate Url(Alipay) / 支付宝链接-->
+    <string name="donate_url_alipay" translatable="false">https://qr.alipay.com/yourcode</string>
+    <!-- Pay with WeChat / 使用微信支付 -->
+    <bool name="config_pay_with_wechat">true</bool>
+    <!-- Feedback using QQ groups / 使用QQ群反馈 -->
+    <bool name="config_feedback_with_qq">true</bool>
+    <!-- Feedback QQ Group Url / QQ群链接-->
+    <string name="feedback_qqgroup_url" translatable="false">mqqopensdkapi://yoururl</string>
+    <!-- Feedback QQ Group Key / QQ群加群key-->
+    <string name="feedback_qqgroup_key" translatable="false">yourcode</string>
+</resources>
