@@ -40,19 +40,14 @@ class IconsAdapter(private val context: Context/*,
         val icon = dataList[position]
         if (holder is CateHolder) {
             var cateCount = arrayOf("default", "")
-            //Log.d("test", icon.getCate())
             if (icon.cate != null) {
                 cateCount = icon.cate.split("\\.\\.\\.".toRegex()).toTypedArray()
-                //cateCount[1] = "..." + cateCount[1]
             }
             holder.tvCate.text = cateCount[0]
             holder.tvCount.text = cateCount[1]
         }
         else if (holder is IconHolder){
             holder.icon.setImageResource(icon.id)
-            //Glide.with(holder.icon).load(icon.id).into(holder.icon)
-            //holder.icon.setImageResource(icon.id)
-            //val iconName: String? = icon.name
             holder.icon.setOnClickListener{
                 clickListener.onClick(holder.icon, icon.id, icon.name)
             }
